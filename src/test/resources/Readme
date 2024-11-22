@@ -1,0 +1,71 @@
+Imagine you're building a house.
+The base of the house is the most important part, right?
+It holds everything up, and every room in the house depends on it to stay stable.
+Without a solid foundation, the whole house could fall apart.
+
+Now, think of your tests as rooms in this house.
+Each room (test) has its own purpose, but they all need that strong base to stand on.
+In automation testing, the base class is like that foundation.
+It’s where you put all the common things that your tests need—things that are used in every test,
+like:
+Setting up the environment – This is where you decide which browser to use (Chrome, Firefox, etc.),
+and you set it up for testing.
+
+Launching the application – Every test needs to visit the website or app you're testing,
+so you put this action in the base class so it doesn’t need to be repeated.
+
+Setting up reports and logs – You want to track what happened in each test (whether it passed or failed),
+so the base class handles this for all tests.
+
+Closing the browser – Once a test finishes, you need to close the browser.
+This too is something you do in every test, so it’s in the base class.
+
+Now, every test you write (like the rooms in the house) can just “inherit” or use this base class.
+This means, instead of repeating all those steps in every single test,
+you simply use the base class. It’s like saying,
+“Hey, I don’t have to tell you how to build the foundation each time. Just use what’s already there!”
+
+So, in short:
+The base class is the foundation that makes your tests easier to write, maintain, and run.
+It holds common actions like opening the browser, launching the app, logging, and closing the browser,
+so you don’t repeat them in every test.
+Your actual tests (rooms) just use this base and focus on what they need to do,
+like clicking buttons or checking results.
+
+Imagine you’re hosting a party,
+and you need to prepare certain things before and after the event,
+like setting up the decorations and cleaning up after everyone leaves.
+You don’t need to remind yourself to do these tasks for every single guest, right?
+They’re common tasks that should happen every time, but you can automate them.
+
+Hooks in testing work in a similar way. They are special actions that run before or after your tests,
+and they help prepare or clean up everything for the test execution.
+You don’t have to mention them in every test because they’re handled automatically for you.
+
+Here’s how it works:
+
+Before Hook: Think of this like setting up for your party. Before the test starts, you might want to:
+Set up the environment (e.g., open a browser).
+Launch the application you’re testing.
+Set up any necessary configurations (like logging or reporting).
+This happens before your test runs, so your test starts with everything ready.
+
+After Hook: Now, after the party, you need to clean up, right? This is like the after hook.
+After the test finishes, you might want to:
+Close the browser.
+Clean up or reset any changes made during the test.
+Log the results or generate reports.
+
+Why Hooks?: Instead of repeating the setup and cleanup steps in each of your tests
+(which would be time-consuming and messy), hooks take care of it for you automatically. They help you:
+
+Run the same setup and cleanup code before and after every test, without writing it each time.
+Keep your tests clean and focused on the specific actions they need to perform.
+So, just like preparing for and cleaning up after a party,
+hooks ensure everything is ready before your test starts and clean after it ends.
+They save time and make your tests more organized and easier to maintain!
+
+To sum up:
+Before hooks help you prepare the environment for the test.
+After hooks help clean up after the test.
+Hooks make sure these actions are done automatically and consistently, without you needing to repeat them in every test.

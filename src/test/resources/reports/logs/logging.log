@@ -1,0 +1,14 @@
+2024-11-22 03:47:30,594 +0530 [main] INFO  (LoginPage.java:27) - LoginPage elements initialized successfully.
+2024-11-22 03:47:30,616 +0530 [main] INFO  (LoginPage.java:35) - Validating login page title. Actual title: CURA Healthcare Service
+2024-11-22 03:47:30,616 +0530 [main] INFO  (LoginPage.java:40) - Login page title verification passed.
+2024-11-22 03:47:30,618 +0530 [main] INFO  (LoginPage.java:52) - Entering username: John Doe
+2024-11-22 03:47:30,744 +0530 [main] INFO  (LoginPage.java:67) - Entering password.
+2024-11-22 03:47:30,951 +0530 [main] INFO  (LoginPage.java:81) - Clicking the login button.
+2024-11-22 03:47:31,575 +0530 [main] INFO  (HomePage.java:47) - Home page title verification passed.
+2024-11-22 03:49:46,368 +0530 [main] INFO  (LoginPage.java:27) - LoginPage elements initialized successfully.
+2024-11-22 03:49:46,380 +0530 [main] INFO  (LoginPage.java:35) - Validating login page title. Actual title: CURA Healthcare Service
+2024-11-22 03:49:46,381 +0530 [main] INFO  (LoginPage.java:40) - Login page title verification passed.
+2024-11-22 03:49:46,381 +0530 [main] INFO  (LoginPage.java:52) - Entering username: John Doe
+2024-11-22 03:49:46,511 +0530 [main] INFO  (LoginPage.java:67) - Entering password.
+2024-11-22 03:49:46,711 +0530 [main] INFO  (LoginPage.java:81) - Clicking the login button.
+2024-11-22 03:49:47,354 +0530 [main] INFO  (HomePage.java:47) - Home page title verification passed.
